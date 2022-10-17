@@ -4,14 +4,23 @@ Martin Sjöström, Shuang G. Zhao, Samuel Levy, Meng Zhang et al. Cancer Researc
 
 https://aacrjournals.org/cancerres/article/doi/10.1158/0008-5472.CAN-22-1123/709779/The-5-Hydroxymethylcytosine-Landscape-of-Prostate
 
-## Abstract
+**IMPORTANT NOTE**  
+
+The metadata required to reproduce this analysis includes files too large to host on GitHub. Three additional data folders are hosted on AWS in the 
+file *WCDT_5hmC_additional_data.zip* in a publicly readable bucket called *wcdt.additional.data*, hosted on the us-west-2 zone.
+
+You can pull this file down at:
+
+https://s3.us-west-2.amazonaws.com/wcdt.additional.data/WCDT_5hmC_additional_data.zip
+
+## Study abstract
 
 Analysis of DNA methylation is a valuable tool to understand disease progression and is increasingly being used to create diagnostic and prognostic clinical biomarkers. While conversion of cytosine to 5-methylcytosine (5mC) commonly results in transcriptional repression, further conversion to 5-hydroxymethylcytosine (5hmC) is associated with transcriptional activation. Here we perform the first study integrating whole-genome 5hmC with DNA, 5mC, and transcriptome sequencing in clinical samples of benign, localized, and advanced prostate cancer. 5hmC is shown to mark activation of cancer drivers and downstream targets. Furthermore, 5hmC sequencing revealed profoundly altered cell states throughout the disease course, characterized by increased proliferation, oncogenic signaling, dedifferentiation, and lineage plasticity to neuroendocrine and gastrointestinal lineages. Finally, 5hmC sequencing of cell-free DNA from patients with metastatic disease proved useful as a prognostic biomarker able to identify an aggressive subtype of prostate cancer using the genes TOP2A and EZH2, previously only detectable by transcriptomic analysis of solid tumor biopsies. Overall, these findings reveal that 5hmC marks epigenomic activation in prostate cancer and identify hallmarks of prostate cancer progression with potential as biomarkers of aggressive disease.
 
 Please direct correspondence related to this manuscript to Felix Feng, UCSF.  
 Please direct inquiries related to the data in this manuscript to David Quigley, UCSF.
 
-## Raw data
+## Obtaining this study's raw data
 
 5hmC sequence data described in this study are available on the EGA website at dataset EGAD00001008462:
 
